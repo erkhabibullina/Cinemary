@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <ImageView
+            android:id="@+id/poster_iv"
+            style="@style/ListShowPoster"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/vote_average_iv"
+            style="@style/ListShowAverageBackground"
+            android:layout_gravity="end" />
+
+        <TextView
+            android:id="@+id/vote_average_tv"
+            style="@style/ListShowAverage"
+            android:layout_gravity="end"
+            tools:text="6.5" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

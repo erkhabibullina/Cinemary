@@ -1,0 +1,69 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Cinemary</string>
+
+    <!-- Main -->
+    <string name="settings">Settings</string>
+    <string name="web_link">Open in browser</string>
+
+    <!-- About -->
+    <string name="about">About</string>
+    <string name="about_text">This app uses TheMovieDB API to display information about movies and tv-shows. It\'s one of the projects from the Udacity.com Android Developer Nanodegree program.</string>
+    <string name="about_source_header">Source</string>
+    <string name="about_source_url">https://github.com/erkhabibullina/cinemary</string>
+    <string name="about_api_header">API</string>
+    <string name="about_api_url">https://developers.themoviedb.org/</string>
+    <string name="about_contact_header">Contact</string>
+    <string name="about_contact_email">erkhabibullina@gmail.com</string>
+    <string name="about_contact_subject">Sent via MovieDB APP</string>
+
+    <!-- Sort by -->
+    <string name="sort_by">Sort by</string>
+    <string name="sort_by_key">sort_by</string>
+    <string name="sort_by_popular">Popular</string>
+    <string name="sort_by_highest_rated">Highest Rated</string>
+    <string name="sort_by_favorites">Favorites</string>
+    <string name="sort_by_favorites_empty">You have no favorites..</string>
+
+    <!-- Movie Details -->
+    <string name="release_date">Release date</string>
+    <string name="language">Language</string>
+    <string name="score">Score</string>
+    <string name="score_details"><xliff:g example="5.6" id="score_average">%s</xliff:g> (<xliff:g example="157" id="score_count">%s</xliff:g> votes)</string>
+    <string name="share">Share</string>
+    <string name="share_mime_type">text/plain</string>
+    <string name="share_title">Tell your friends about \'<xliff:g example="Bumblebee" id="show_title">%s</xliff:g>\'</string>
+    <string name="share_text">Check out this movie \'<xliff:g example="Bumblebee" id="show_title">%s</xliff:g>\', it has an average rating of <xliff:g example="5.6" id="show_average_rating">%s</xliff:g> over at www.themoviedb.org! (<xliff:g example="https://themoviedb.org/movie/424783" id="show_url">%s</xliff:g>)</string>
+    <string name="favorite_add">Add to favorites</string>
+    <string name="favorite_remove">Remove from favorites</string>
+    <string name="favorite_added_snack">Added \'<xliff:g example="Bumblebee" id="show_title">%s</xliff:g>\' to favorites!</string>
+    <string name="favorite_removed_snack">Removed \'<xliff:g example="Bumblebee" id="show_title">%s</xliff:g>\' from favorites!</string>
+    <string name="reviews">Reviews</string>
+    <string name="trailers">Trailers</string>
+
+    <!-- Movie Reviews -->
+    <string name="review_title">Reviews: <xliff:g example="Bumblebee" id="review_title">%s</xliff:g></string>
+    <string name="review_author">Written by \@<xliff:g example="zetfury" id="review_author">%s</xliff:g></string>
+
+    <!-- Preferences -->
+    <string name="prefs_shown">Shown</string>
+    <string name="prefs_hidden">Hidden</string>
+    <string name="prefs_poster_list_rating_title">Show movie rating in list</string>
+    <string name="prefs_poster_list_rating_key">prefs_poster_list_rating</string>
+    <string name="prefs_default_list_title">Default list to movie on start</string>
+    <string name="prefs_default_list_key">prefs_default_list</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Bumblebee</string>
+    <string name="tools_release_date">21 December, 2018</string>
+    <string name="tools_language">English</string>
+    <string name="tools_score">5.6 (voted by 1463 people)</string>
+    <string name="tools_plot">On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</string>
+    <string name="tools_review_author">garethmb</string>
+    <string name="tools_review">It is hard to believe it has been 19 years since “Unbreakable” arrived in cinemas as the film seemed to setup a sequel but it did not look like it would come to fruition. That all changed in 2016 when “Split” arrived and shocked audiences with a late reveal that showed a connection to the film. Writer/Director M. Night Shyamalan has wasted no time in bringing the new film to fans with the arrival of “GLASS”. The film picks up soon after the events of “Split” as The Horde embodied by 23 personalities in the form of Kevin Wendell Crumb (James McAvoy) continues to kidnap young girls to serve to his highly dangerous 24th personality The Beast.</string>
+    <string name="tools_trailer">Bumblebee official trailer</string>
+    <string name="tools_reviewer">@string/review_author</string>
+
+    <!-- Snackbar -->
+    <string name="undo">Undo</string>
+
+</resources>

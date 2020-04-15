@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <!-- list_show: Average score -->
+    <style name="ListShowAverage">
+        <item name="android:layout_width">@dimen/poster_rating</item>
+        <item name="android:layout_height">@dimen/poster_rating</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- list_show: Poster -->
+    <style name="ListShowPoster">
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- list_show: Average score (background) -->
+    <style name="ListShowAverageBackground">
+        <item name="android:layout_width">@dimen/poster_rating</item>
+        <item name="android:layout_height">@dimen/poster_rating</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+
+    <!-- activity_movie_detail: Movie title -->
+    <style name="ShowTitle" parent="WrapContent">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- activity_movie_detail: Movie detail header -->
+    <style name="ShowDetailHeader" parent="WrapContent">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- activity_movie_detail: Movie detail content -->
+    <style name="ShowDetailContent" parent="WrapContent">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- activity_about: About detail layout-->
+    <style name="AboutDetailLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- activity_about: About detail inner layout -->
+    <style name="AboutDetailInnerLayout" parent="WrapContent">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- activity_about: About detail header -->
+    <style name="AboutDetailHeader" parent="WrapContent">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- activity_about: About detail text -->
+    <style name="AboutDetailText" parent="WrapContent">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Generic wrap_content -->
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

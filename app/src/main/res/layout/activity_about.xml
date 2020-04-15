@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <!-- Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/about_text"
+        android:textColor="@android:color/white" />
+
+    <!-- API -->
+    <LinearLayout
+        android:id="@+id/api_layout"
+        style="@style/AboutDetailLayout">
+
+        <ImageView
+            android:layout_width="@dimen/icon_default"
+            android:layout_height="@dimen/icon_default"
+            android:src="@drawable/ic_link" />
+
+        <LinearLayout style="@style/AboutDetailInnerLayout">
+
+            <TextView
+                style="@style/AboutDetailHeader"
+                android:text="@string/about_api_header" />
+
+            <TextView
+                style="@style/AboutDetailText"
+                android:text="@string/about_api_url" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Source -->
+    <LinearLayout
+        android:id="@+id/source_layout"
+        style="@style/AboutDetailLayout">
+
+        <ImageView
+            android:layout_width="@dimen/icon_default"
+            android:layout_height="@dimen/icon_default"
+            android:src="@drawable/ic_code" />
+
+        <LinearLayout style="@style/AboutDetailInnerLayout">
+
+            <TextView
+                style="@style/AboutDetailHeader"
+                android:text="@string/about_source_header" />
+
+            <TextView
+                style="@style/AboutDetailText"
+                android:text="@string/about_source_url" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Contact -->
+    <LinearLayout
+        android:id="@+id/contact_layout"
+        style="@style/AboutDetailLayout">
+
+        <ImageView
+            android:layout_width="@dimen/icon_default"
+            android:layout_height="@dimen/icon_default"
+            android:src="@drawable/ic_person" />
+
+        <LinearLayout style="@style/AboutDetailInnerLayout">
+
+            <TextView
+                style="@style/AboutDetailHeader"
+                android:text="@string/about_contact_header" />
+
+            <TextView
+                style="@style/AboutDetailText"
+                android:text="@string/about_contact_email" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

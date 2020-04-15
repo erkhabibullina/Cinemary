@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="@bool/prefs_poster_list_rating_default"
+        android:key="@string/prefs_poster_list_rating_key"
+        android:summaryOff="@string/prefs_hidden"
+        android:summaryOn="@string/prefs_shown"
+        android:title="@string/prefs_poster_list_rating_title" />
+</PreferenceScreen>
